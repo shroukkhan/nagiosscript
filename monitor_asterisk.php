@@ -7,6 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
+error_reporting(0); // disable all error reporting
 require_once(getcwd().'/sshlib/Net/SSH2.php');
 
 
