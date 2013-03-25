@@ -7,8 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-set_include_path(get_include_path() . PATH_SEPARATOR . 'sshlib');
-include('NET/SSH2.php');
+require_once(getcwd().'/sshlib/NET/SSH2.php');
 
 
 $thisFile = trim($argv[0]);
