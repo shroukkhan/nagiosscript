@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-require_once(getcwd().'/sshlib/NET/SSH2.php');
+require_once(getcwd().'/sshlib/Net/SSH2.php');
 
 
 $thisFile = trim($argv[0]);
